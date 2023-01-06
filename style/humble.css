@@ -24,7 +24,7 @@
 
 .section-header{
     margin: 50px 0 20px 0;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -125,7 +125,51 @@
     margin: 20px 0;
 }
 
-/* donations star */
+/* donations end */
+
+
+/* donate plan start */
+
+.plan-container{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.plans{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.plan-img{
+    padding: 20px 0;
+}
+
+.plan-title{
+    color: #121212;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.plan-dis{
+    color: #707070;
+    padding: 10px 0 20px 0;
+}
+
+.plan-container > :nth-child(1){
+    background-color: #4F9DA61A;
+}
+.plan-container > :nth-child(2){
+    background-color: #FF59591A;
+}
+.plan-container > :nth-child(3){
+    background-color: antiquewhite;
+}
+
+/* donate plan end */
+
+
 
 
 /* main style end */

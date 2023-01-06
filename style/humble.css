@@ -22,6 +22,19 @@
     border: none;
 }
 
+.section-header{
+    margin: 50px 0 20px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.section-des{
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #707070;
+}
+
 /* common style end */
 
 /* header style start */
@@ -59,3 +72,60 @@
 }
 
 /* header style end */
+
+/* main style start */
+
+.main{
+    margin: 0 200px;
+}
+
+
+/* donations star */
+
+.donate-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.donate{
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.donate .amount{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #707070;
+}
+
+.donate:hover{
+    background-color: #f8b4b4;
+    border: 2px solid #fa4444;
+}
+
+.donate:hover  .amount{
+    color: #FF5959;
+}
+
+.others-amounts{
+    text-align: center;
+    color: #707070;
+    font-weight: 400;
+    padding: 4px 0;
+}
+
+.donation-btn-container{
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* donations star */
+
+
+/* main style end */

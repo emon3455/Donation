@@ -43,7 +43,7 @@
     display: flex;
     margin: 0 50px 0 200px;
     gap: 20px;
-    background-image:  url(../picture/Ellipse_256.png) , url(../picture/Ellipse_257.png) ;
+    background-image:  url(./picture/Ellipse_256.png) , url(./picture/Ellipse_257.png) ;
     background-repeat: no-repeat;
     background-size: 650px , 520px;
     background-position: 85% 100%, 77% 100%;

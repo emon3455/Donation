@@ -169,6 +169,40 @@
 
 /* donate plan end */
 
+/* blog start */
+.blogs-container{
+    margin: 20px 0;
+    
+}
+
+.blogs-container > :nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.blog{
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.blog-title{
+    margin: 30px 0;
+    font-size: 45px;
+}
+
+.blog-info{
+    margin: 20px 0;
+    color: #707070;
+    font-size: 18px;
+}
+
+.blog-img{
+    width: 400px;
+    height: 380px;
+}
+
+/* blog end */
+
 
 
 
